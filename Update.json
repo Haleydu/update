@@ -1,10 +1,7 @@
 {
-    "versionCode":2,
-    "versionName": v2.0,
-	"updateInf":[
-		"修复BUG",
-		"优化功能",
-		"增加新的功能"
-	],
-    "url": "https://gitee.com/Haleydu/update/raw/master/apk/Cimoc1.6.4-beta03.apk"
+    "versionCode":74,
+    "versionName": "1.6.4-beta03",
+  "content": "1.由于漫画源经常失效，准备搭建Cimoc专用的服务器通过云端更新漫画源\r\n2.未来会加入云备份功能，软件内实时聊天留言的功能，软件自更新\r\n3.打算加入Google的广告系统，通过广告收入来维持服务器运转，广告位置会尽量人性化，避免影响用户体验\r\n4.广告收入如果能买足够强大的服务器，准备把软件内所有图源解析到的所有漫画图片源直接放服务器上，由服务器去解析就不用cimoc去解析了，看漫画也会快很多\r\n5.如果有大佬愿意赞助服务器的，会取消软件内的预置广告。\r\n\r\n\r\n无法升级的，卸载原来的版本，重新安装。\r\n注意：卸载前记得备份一下自己的漫画收藏和历史，以免数据丢失。\r\n\r\n\r\n蓝奏云下载链接：https://haleydu.lanzoui.com/iKn2xfko7gh",
+    "md5":"322d756c05897b2ffffeee1bb867b91b",
+    "url": "https://github.com/Haleydu/Cimoc/releases/download/1.6.4-beta03/Cimoc.apk"
 }
