@@ -1,7 +1,7 @@
 {
-	"versionCode":80,
-	"versionName": "1.6.5-beta01",
-	"content": "1.修复动漫之家v2章节显示不全问题，以及倒序异常",
-	"md5":"01c7d3c40b07ebf5081f447473c7f103",
-	"url": "https://github.com/Haleydu/Cimoc/releases/download/1.6.5-beta01/Cimoc.apk"
+	"versionCode":89,
+	"versionName": "1.6.6",
+	"content": "与1.6.5-beta01相比修复如下问题：\r\n1.添加 Mangakakalot漫源 \r\n2.修复MangaNel漫源 \r\n3.修复MHLove漫源\r\n4.修复动漫之家v2\r\n5.修复百年漫画\r\n6.修复拷贝漫画倒序的问题",
+	"md5":"null",
+	"url": "https://github.com/Haleydu/Cimoc/releases/download/1.6.6/Cimoc.apk"
 }
