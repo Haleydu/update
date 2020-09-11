@@ -1,8 +1,8 @@
 {
-	"versionCode":128,
-	"versionName": "1.6.15",
-	"content": "\r\n1.修复oh漫画\r\n2.修复奇漫屋\r\n3.修复古风漫画和奇漫屋章节倒叙问题\r\n4.修复禁漫天堂\r\n\r\n\r\n无法下载的可以到主页下载。点击：关于>检查更新\r\n\r\n蓝奏云：\r\n https://haleydu.lanzoui.com/i6NXAgb6b1a",
-	"md5":"b1926eb20b7eaa744967f38002021208",
-	"url": "https://github.com/Haleydu/Cimoc/releases/download/1.6.15/Cimoc_1.6.15.apk
+	"versionCode":140,
+	"versionName": "1.6.16",
+	"content": "\r\n1.添加奇妙漫画\r\n2.修复漫画检测更新失败的问题\r\n3.修复自动分页缺少一页的问题\r\n4.修复下载有时会失败的问题\r\n5.修复漫画台和MangaBZ不检查更新的问题\r\n6.修复禁漫天堂和奇妙漫画拉动进度条闪退的问题\r\n\r\n\r\n无法下载的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：\r\n https://haleydu.lanzoui.com/iOR9Wgj9g2h",
+	"md5":"48d445a58b1bebda11374d08fd4ef3a0",
+	"url": "https://github.com/Haleydu/Cimoc/releases/download/1.6.16/Cimoc_1.6.16.apk
 "
 }
