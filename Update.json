@@ -1,8 +1,7 @@
 {
 	"versionCode":143,
-	"versionName": "1.6.17",
-	"content": "\r\n修复oh漫画\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzoui.com/iseERh96pwj\r\n ",
+	"versionName":"1.6.17",
+	"content":"\r\n修复oh漫画\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzoui.com/iseERh96pwj\r\n",
 	"md5":"714c161541693268f0d956936f1038b4",
-	"url": "https://github.com/Haleydu/Cimoc/releases/download/1.6.17/Cimoc_1.6.17.apk
-"
+	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.17/Cimoc_1.6.17.apk"
 }
