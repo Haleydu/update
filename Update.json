@@ -1,7 +1,7 @@
 {
-	"versionCode":155,
-	"versionName":"1.6.22",
-	"content":"\r\n1.修复漫画堆\r\n\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzoui.com/iMsdciwp38b\r\n",
-	"md5":"c10fcf12a8b53c5bc3b629f0761e6b89",
-	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.22/Cimoc_1.6.22.apk"
+	"versionCode":157,
+	"versionName":"1.6.23",
+	"content":"\r\n1.修复漫画堆部分漫画无法观看的问题\r\n\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzoui.com/ixKuvix0h7a\r\n",
+	"md5":"35d4af73360bdecb91c9e3c55f919919",
+	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.23/Cimoc_1.6.23.apk"
 }
