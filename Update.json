@@ -1,7 +1,7 @@
 {
-	"versionCode":162,
-	"versionName":"1.6.25",
-	"content":"\r\n1.修复oh漫画\r\n\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzous.com/illzmk1t51g\r\n",
-	"md5":"47da4b0e2ba6ff4ee4baaba25250bcff",
-	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.25/Cimoc_1.6.25.apk"
+	"versionCode":165,
+	"versionName":"1.6.26",
+	"content":"\r\n1.修复动漫之家\r\n2.修复禁漫天堂国内源\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzous.com/iJahekngxmj\r\n",
+	"md5":"438548a3d64ddbd5f1bb68264925b855",
+	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.26/Cimoc_1.6.26.apk"
 }
