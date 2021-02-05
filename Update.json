@@ -1,7 +1,7 @@
 {
-	"versionCode":165,
-	"versionName":"1.6.26",
-	"content":"\r\n1.修复动漫之家\r\n2.修复禁漫天堂国内源\r\n\r\n\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzous.com/iJahekngxmj\r\n",
-	"md5":"438548a3d64ddbd5f1bb68264925b855",
-	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.26/Cimoc_1.6.26.apk"
+	"versionCode":182,
+	"versionName":"1.6.29",
+	"content":"\r\n1.添加漫画源：优酷漫画\r\n2.添加华为平板平行视界支持\r\n3.适配小米手机深色模式bug\r\n4.修复禁漫天堂下载后的图片错乱问题，漫画标题详情显示\r\n5.创建了telegram群：https://t.me/cimoc_haleydu 欢迎加群吹水\r\n本次软件更新特别鸣谢开源代码贡献者：lx200916\r\n\r\n\r\ntelegram群：https://t.me/cimoc_haleydu\r\n无法下载更新的可以到主页下载。点击：关于>检查更新\r\n\r\n国内用户推荐使用蓝奏云更新，直接点击下列链接即可\r\n蓝奏云：https://haleydu.lanzous.com/iAJxnldcsba\r\n",
+	"md5":"04227919d73f49839cc8fea6a100fed5",
+	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.29/Cimoc_1.6.29.apk"
 }
