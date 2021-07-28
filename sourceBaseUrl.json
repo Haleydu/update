@@ -12,12 +12,12 @@
 	"CCTUKU":"http://m.tuku.cc",
 
 	"CHUIXUE":"http://www.chuixue.net",
-    	"CHUIXUESERVER":"http://chuixue1.tianshigege.com/",
+    "CHUIXUESERVER":"http://chuixue1.tianshigege.com/",
 
 	"CHUIYAO":"http://m.chuiyao.com",
 
 	"COPYMH":"https://copymanga.com",
-    		
+    
     "COPYMHSERVER":"https://api.copymanga.com",
 
 	"DM5":"http://m.dm5.com",
@@ -114,6 +114,11 @@
 	
 	"YYLS":"http://8comic.se",
 	
+	"KUAIKANMANHUA":"https://www.kuaikanmanhua.com",
+    "KUAIKANMANHUASERVER":"https://api.kkmh.com",
+
 	"HHAAZZ":"http://www.hhimm.com",
 	"HHAAZZ_SW":"44123.com|hhcool.com|hhimm.com"
+
+
 }
