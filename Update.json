@@ -1,7 +1,7 @@
 {
-	"versionCode":852,
-	"versionName":"1.6.40",
-	"content":"\r\n1、漫画阅读界面的，阅读模式和章节菜单栏选择可以根据主题变换颜色\r\n2、修复漫画160\r\n3、修复6漫画\r\n4、将禁漫天堂换成国内源，国内国外都可直接观看\r\n5、修复小米系列手机进设置闪退的问题\r\n6、不再修复热辣漫画，属于需要登录才能看全部漫画的漫源不实用\r\n7、修复鸿蒙系统下载异常的问题\r\n8、修复安卓11一直弹权限请求对话框的问题\r\n\r\n后续公开版本的软件部分特殊漫画源失效后不再修复，正常漫画源会继续修复，后期会多补充一些正常漫源。\r\n非公开版本还会保留全部漫源，失效后继续更新特殊漫源，issue上大家提供的特殊漫源也只添加到非公开版本。\r\n以后最新的公开版本和特殊版本，以及还在开发的ios版本只在公众号发布\r\n\r\n无法升级的可以关注《Cimoc》微信公众号获取蓝奏云下载链接\r\n公众号微信号：HDCIMOC\r\n\r\n\r\ntelegram群：https://t.me/cimoc_haleydu\r\n",	
-	"md5":"6c9cfc09939641da73814b79a38bc709",
-	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.6.40/Cimoc_1.6.40.apk"
+	"versionCode":926,
+	"versionName":"1.7.7",
+	"content":"\r\n最新1.7.7版本更新如下内容，备份失败的先升级1.7.1版本再升级到1.7.7\r\n1、优化云备份功能\r\n2、修复6漫画\r\n3、彻底取消获取手机信息的授权\r\n4、修复禁漫天堂在线观看时，部分页面漫画有条纹遮挡\r\n5、增加开启流量模式下也可以自动检查漫画更新的选项\r\n6、修复部分机型闪退问题\r\n7、增加了一个漫画源\r\n8、下载漫画可以同时最高30个线程\r\n9、优化了软件加载速度\r\n10、修复oh漫画\r\n11、WebDav云备份功能\r\n\r\n新版本的使用方法先导入图源：（将下面地址复制到新版本导入，导入成功会有提示，只需导入一次以后升级不用再导入）：\r\nhttps://gitee.com/Haleydu/update/raw/master/sourceBaseUrl.json\r\n新版本没有漫画收藏记录和历史记录的\r\n打开旧版本的 “备份”>“备份漫画”和“备份设置”\r\n打开新版本的 “备份”>”恢复漫画”和“恢复设置”\r\n旧版本的观看记录和收藏记录以及个人偏好设置就可以在新版本使用了\r\n\r\n无法升级的可以关注《Cimoc》微信公众号获取蓝奏云下载链接\r\n公众号微信号：HDCIMOC\r\n\r\ntelegram群：https://t.me/cimoc_haleydu\r\n",	
+	"md5":"e60ad534edc2a32bde3c702758d80805",
+	"url":"https://github.com/Haleydu/Cimoc/releases/download/1.7.7/Cimoc_1.7.7.apk"
 }
