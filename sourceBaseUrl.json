@@ -1,5 +1,33 @@
 {
-	"ANIMX2":"http://www.2animx.com",
+	"QIXIMH":{
+      "baseUrl":"http://qiximh1.com",
+      "search":"/search.php",
+      "searchKey":"keyword",
+
+      "searchInfoList":"search_data",
+      "searchInfoCid":"id",
+      "searchInfoTitle":"name",
+      "searchInfoCover":"imgs",
+      "searchInfoAuthor":"author",
+      "searchInfoUpdate":"",
+
+      "parseInfoTitle":"h1.name",
+      "parseInfoCover":"div.comic_info.h_comic_info > div.comic_cover",
+      "parseInfoIntro":"div.comic_bottom_content > div.detail_wrap > div.details",
+      "parseInfoAuthor":".author_name",
+      "parseInfoUpdate":"span.looking_chapter",
+      "parseInfoStatus":"span.looking_chapter",
+
+      "parseChapterList1":"ul.catalog_list.row_catalog_list > a",
+
+      "parseCategoryInfoList":"div.category_comic_container > div.comic_cover_container",
+      "parseCategoryInfoCid":"a",
+      "parseCategoryInfoTitle":"div.comic_cover_title",      
+      "parseCategoryInfoCover":"div.comic_cover",
+      "parseCategoryInfoUpdate":"div.comic_cover_desc"
+    },
+    
+    "ANIMX2":"http://www.2animx.com",
     
 	"BAINIAN":"https://m.bnmanhua.com",
     
@@ -70,7 +98,40 @@
     "MANHUATAI":"https://m.manhuatai.com/",
 	"MANHUATAIPIC":"https://www.kanman.com",
 	
-	"MH50":"https://m.manhuadai.com",
+	"MH50":{
+      "baseUrl":"https://www.manhuacat.com",
+      "search":"/search.html?q=%s",
+
+      "searchInfoList":".comic-main-section > .row > div",
+      "searchInfoCid":"h2 > a",
+      "searchInfoTitle":"h2",
+      "searchInfoCover":"img.img-fluid",
+      "searchInfoAuthor":".one-line.comic-author",
+      "searchInfoUpdate":"",
+
+      "parseInfoTitle":"div.comic-info > h1.comic-title",
+      "parseInfoCover":"img.img-round",
+      "parseInfoIntro":"div.comic-info > p.comic_story",
+      "parseInfoAuthor":"td.pub-duration",
+      "parseInfoUpdate":"div > table > tbody > tr:eq(10) > td",
+      "parseInfoStatus":"div.comic-info > ul.tags",
+
+      "parseChapterList1":"ol.links-of-books > li > a",
+      "parseChapterList2":"",
+      "parseChapterPath":"",
+      "parseChapterTitle":"",
+
+      "parseImageSrc":"img_data = \"(.*?)\"",
+      "parseImageDomain":"data-chapter-domain=\"(.*?)\"",
+      "parseImageDomainPre":"/uploads/",      
+      "parseCategoryInfoList":".comic-main-section > div",
+      "parseCategoryInfoCid":"a",
+      "parseCategoryInfoTitle":"img",      
+      "parseCategoryInfoCover":"img",
+      "parseCategoryInfoAuthor":"div.comic-creators",
+
+      "parseCategoryPath":"/list/a-%s-c-%s-t-%s-y-%s-i-%s-m-%s.html"
+    },
 	
 	"MH57":"http://m.wuqimh.com/",
 	"MH57SERVER":"http://images.lancaier.com",
@@ -87,15 +148,16 @@
 	"MIGU":"http://www.migudm.cn",
 	
 	"OHMANHUA":"https://www.cocomanhua.com",
+    "OHMANHUARATELIMIT":2000,
 	
-	"PUFEI":"http://m.pufei8.com",
-	"PUFEISERVER":"http://res.img.youzipi.net/",
+	"PUFEI":"http://m.pufei.org/",
+	"PUFEISERVER":"http://res.img.scbrxhwl.com/",
 	
 	"QIMANWU":"http://qiman6.com",
 	
 	"QIMIAOMH":"https://www.qimiaomh.com",
 	
-	"SIXMH":"http://sixmh6.com",
+	"SIXMH":"http://sixmh7.com",
 	
 	"TENCENT":"http://ac.qq.com",
 	"TENCENTM":"https://m.ac.qq.com",
@@ -118,7 +180,107 @@
     "KUAIKANMANHUASERVER":"https://api.kkmh.com",
 
 	"HHAAZZ":"http://www.hhimm.com",
-	"HHAAZZ_SW":"44123.com|hhcool.com|hhimm.com"
+	"HHAAZZ_SW":"44123.com|hhcool.com|hhimm.com",
 
+    "JOYHENTAI":"https://zh.joyhentai.fun/",
+
+    "BAOZIMH":{
+      "baseUrl":"https://cn.baozimh.com",
+      "search":"/search?q=%s",
+
+      "searchInfoList":"div.pure-g.classify-items > div",
+      "searchInfoCid":"a:eq(0)",
+      "searchInfoTitle":"a:eq(0)",
+      "searchInfoCover":"a:eq(0) > amp-img:eq(0)",
+      "searchInfoAuthor":"small",
+      "searchInfoUpdate":"",
+
+      "parseInfoTitle":"h1.comics-detail__title",
+      "parseInfoCover":"div.l-content > div > div > amp-img",
+      "parseInfoIntro":"div.comics-detail__info > p",
+      "parseInfoAuthor":"h2.comics-detail__author",
+      "parseInfoUpdate":"div.comics-detail__info > div.supporting-text.mt-2 > div:eq(1) > span > em",
+      "parseInfoStatus":"div.tag-list > span:eq(0)",
+
+      "parseChapterList1":"div#chapter-items > div",
+      "parseChapterList2":"div#chapters_other_list > div",
+      "parseChapterPath":"a",
+      "parseChapterTitle":"span",
+      "parseCategoryPath":"/classify?type=%s&region=%s&state=%s&filter=%s"
+    },
+    
+
+    "YIMMH":{
+      "baseUrl":"https://m.yimmh.com",
+      "search":"/search?keyword=%s",
+
+      "searchInfoList":"ul.book-list > li",
+      "searchInfoCid":"div.book-list-cover > a",
+      "searchInfoTitle":"p.book-list-info-title",
+      "searchInfoCover":"img",
+      "searchInfoAuthor":"span.book-list-info-bottom-item",
+      "searchInfoUpdate":"span.book-list-info-bottom-right-font",
+
+      "parseInfoTitle":"p.detail-main-info-title",
+      "parseInfoCover":"img.detail-main-bg",
+      "parseInfoIntro":"p.detail-desc",
+      "parseInfoAuthor":"div.detail-main-info > p:eq(2) > a",
+      "parseInfoUpdate":"span.detail-list-title-3",
+      "parseInfoStatus":"span.detail-list-title-1",
+
+      "parseChapterList1":"ul#detail-list-select > li > a",
+      "parseChapterPath":"",
+      "parseChapterTitle":"",
+
+      "parseImageList":"img.lazy",
+      "parseImageUrl":"img",
+
+      "parseCategoryInfoList":"books",
+      "parseCategoryInfoCid":"unique_id",
+      "parseCategoryInfoCidPre":"/book/",
+      "parseCategoryInfoTitle":"book_name",      
+      "parseCategoryInfoCover":"cover_url",
+      "parseCategoryInfoAuthor":"author_name",
+      "parseCategoryInfoUpdate":"update_time",
+
+      "parseCategoryPath":"/getBooks?tag=%s&end=%s&page=%s"
+    },
+
+    "DUMH":{
+      "baseUrl":"https://m.dumanhhua.com",
+      "search":"/search/?keywords=%s",
+
+      "searchInfoList":"div#update_list > div.UpdateList > div",
+      "searchInfoCid":"div.itemImg > a",
+      "searchInfoTitle":"div.itemTxt > a.title",
+      "searchInfoCover":"mip-img",
+      "searchInfoAuthor":"div.itemTxt > p",
+      "searchInfoUpdate":"span.date",
+
+      "parseInfoTitle":"div#Cover > mip-img",
+      "parseInfoCover":"div#Cover > mip-img",
+      "parseInfoIntro":"p.txtDesc",
+      "parseInfoAuthor":"div.view-sub > div.pic > div:eq(2) > dd",
+      "parseInfoUpdate":"div.view-sub > div.pic > div:eq(4) > dd",
+      "parseInfoStatus":"div.view-sub > div.pic > div:eq(1)",
+
+      "parseChapterList1":"div.list > ul > li > a",
+      "parseChapterPath":"",
+      "parseChapterTitle":"",
+
+      "parseImageList":"",
+      "parseImageUrl":"div > mip-link > mip-img",
+      "parseImageFaultImage":"https://2mg.dumanhhua.com/images/default/cover.png",
+
+
+      "parseCategoryInfoList":"div#w0 > ul > li",
+      "parseCategoryInfoCid":"a.ImgA",
+      "parseCategoryInfoTitle":"mip-img",      
+      "parseCategoryInfoCover":"mip-img",
+      "parseCategoryInfoAuthor":"",
+      "parseCategoryInfoUpdate":"",
+
+      "parseCategoryPath":"/list/"
+    }
 
 }
